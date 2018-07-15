@@ -1,3 +1,7 @@
+# Obsolete
+
+With the latest LLVM branch landed in rustc, this tool is no longer needed. Compile your binary with `RUSTFLAGS="-C link-arg=--export-table"` to get a binary with the exported default table.
+
 # wasm-export-table
 
 A tool that adds an export entry for the default table.
